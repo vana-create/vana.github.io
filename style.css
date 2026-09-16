@@ -5,6 +5,13 @@ body {
   color: #222;
   background: #f4f4f4;
 }
+body {
+  background-image: url('back.jpg'); /* Pfad zum Bild */
+  background-size: cover;       /* Bild füllt den ganzen Bildschirm aus */
+  background-position: center;  /* Bild wird zentriert */
+  background-attachment: fixed; /* Hintergrund bleibt beim Scrollen stehen */
+  background-repeat: no-repeat; /* Bild wird nicht wiederholt */
+}
 
 header {
   padding: 80px 20px;
